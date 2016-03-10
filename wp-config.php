@@ -21,9 +21,9 @@ if (file_exists(dirname(__FILE__) . '/wp-config-local.php')) {
 } else {
   // Don't show deprecations; useful under PHP 5.5
   error_reporting(E_ALL ^ E_DEPRECATED);
-  define('DB_NAME',          env('DB_NAME') );
-  define('DB_USER',          env('DB_USER') );
-  define('DB_PASSWORD',      env('DB_PASS') );
+  define('DB_NAME',          'tc_test' );
+  define('DB_USER',          'forge_trinity' );
+  define('DB_PASSWORD',      '@Trinity#data$1117';
   /* That's all, stop editing! Happy blogging. */
 }
 
