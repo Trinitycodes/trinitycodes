@@ -23,7 +23,7 @@ if (file_exists(dirname(__FILE__) . '/wp-config-local.php')) {
   error_reporting(E_ALL ^ E_DEPRECATED);
   define('DB_NAME',          'tc_test' );
   define('DB_USER',          'forge_trinity' );
-  define('DB_PASSWORD',      '@Trinity#data$1117';
+  define('DB_PASSWORD',      '@Trinity#data$1117' );
   /* That's all, stop editing! Happy blogging. */
 }
 
