@@ -24,12 +24,6 @@ if (file_exists(dirname(__FILE__) . '/wp-config-local.php')) {
   define('DB_NAME',          getenv('DB_NAME') );
   define('DB_USER',          getenv('DB_USER') );
   define('DB_PASSWORD',      getenv('DB_PASS') );
-  define('DB_HOST',          getenv('DB_HOST') );
-  define('DB_CHARSET',       'utf8');
-  define('DB_COLLATE',       '');
-  $table_prefix  = 'wp_';
-  define('WPLANG', '');
-  define('WP_DEBUG', false);
   /* That's all, stop editing! Happy blogging. */
 }
 
