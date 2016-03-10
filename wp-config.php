@@ -21,6 +21,7 @@ if (file_exists(dirname(__FILE__) . '/wp-config-local.php')) {
 } else {
   // Don't show deprecations; useful under PHP 5.5
   error_reporting(E_ALL ^ E_DEPRECATED);
+  print_r( $_SERVER['ENV'] );
   define('DB_NAME',          getenv('DB_NAME') );
   define('DB_USER',          getenv('DB_USER') );
   define('DB_PASSWORD',      getenv('DB_PASS') );
